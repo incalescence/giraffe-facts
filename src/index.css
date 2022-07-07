@@ -5,9 +5,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.image {
+  border-radius: 20px;
+  width: 30%;
+  margin-right: 20px;
+}
+
+.list {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 20px 20px 40px;
+  width: 75%;
+  line-height: 19px;
+}
+
+.list > li::marker{
+  font-size: 1.3rem;
+  color: #ef5777;
+}
+
+.buttons{
+  list-style: none;
+  display: flex;
+  justify-content:space-around;
+  background-color: rgba(245, 245, 245, 1);
+  align-content: center;
+}
+
+.buttons > a {
+  padding: 10px;
+  margins: 10px;
+} 
+
+.main {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 30px;
+  filter: drop-shadow(5px 5px 4px #a3aaaf);
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button {
+  border: 0px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ef5777;
+  filter: drop-shadow(3px 3px 4px #a3aaaf);
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #d2dae2;
+  transform: scale(1.1);
+  filter: drop-shadow(5px 5px 4px #a3aaaf);
+}
+
+.pink {
+  color: #ef5777;
+  background: none;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+.content {
+ 
+}
+
+
+
+
